@@ -1,0 +1,334 @@
+{
+	"pages": [
+    {
+    	"path": "pages/login/index",
+    	"style": {
+    		"navigationBarTitleText": "登录"
+    	}
+    },
+    {
+    	"path": "pages/login/register",
+    	"style": {
+    		"navigationBarTitleText": "注册"
+    	}
+    },
+    {
+    	"path": "pages/login/forget",
+    	"style": {
+    		"navigationBarTitleText": "忘记密码"
+    	}
+    },
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/index/member",
+			"style": {
+				"navigationBarTitleText": "会员购买"
+			}
+		},
+		{
+			"path": "pages/index/activate",
+			"style": {
+				"navigationBarTitleText": "激活码超市"
+			}
+		},
+		{
+			"path": "pages/index/myActivate",
+			"style": {
+				"navigationBarTitleText": "我的激活码"
+			}
+		},
+		{
+			"path": "pages/shop/index",
+			"style": {
+				"navigationBarTitleText": "产品"
+			}
+		},
+		{
+			"path": "pages/spread/index",
+			"style": {
+				"navigationBarTitleText": "推广"
+			}
+		},
+		{
+			"path": "pages/spread/material",
+			"style": {
+				"navigationBarTitleText": "推广素材库"
+			}
+		},
+		{
+			"path": "pages/spread/essay",
+			"style": {
+				"navigationBarTitleText": "文章详情"
+			}
+		},
+		{
+			"path": "pages/spread/experience",
+			"style": {
+				"navigationBarTitleText": "推广经验谈"
+			}
+		},
+		{
+			"path": "pages/spread/hot",
+			"style": {
+				"navigationBarTitleText": "热文攻略"
+			}
+		},
+		{
+			"path": "pages/spread/content",
+			"style": {
+				"navigationBarTitleText": "文章详情"
+			}
+		},
+		{
+			"path": "pages/spread/poster",
+			"style": {
+				"navigationBarTitleText": "推广海报"
+			}
+		},
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/mine/account",
+			"style": {
+				"navigationBarTitleText": "帐号中心"
+			}
+		},
+		{
+			"path": "pages/mine/order",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+			}
+		},
+		{
+
+			"path": "pages/mine/earning",
+			"style": {
+				"navigationBarTitleText": "收入明细"
+			}
+		},
+		{
+
+			"path": "pages/mine/cash",
+			"style": {
+				"navigationBarTitleText": "提现"
+			}
+		},
+		{
+
+			"path": "pages/mine/team",
+			"style": {
+				"navigationBarTitleText": "我的团队"
+			}
+		},
+		{
+
+			"path": "pages/mine/agentIntro",
+			"style": {
+				"navigationBarTitleText": "VIP介绍"
+			}
+		},
+		{
+
+			"path": "pages/mine/agent",
+			"style": {
+				"navigationBarTitleText": "升级VIP"
+			}
+		},
+		{
+
+			"path": "pages/mine/certificate",
+			"style": {
+				"navigationBarTitleText": "授权证书"
+			}
+		},
+		{
+			"path": "pages/mine/notice",
+			"style": {
+				"navigationBarTitleText": "公告"
+			}
+		},
+		{
+			"path": "pages/mine/kf",
+			"style": {
+				"navigationBarTitleText": "客服"
+			}
+		},
+		{
+			"path": "pages/mine/help",
+			"style": {
+				"navigationBarTitleText": "帮助中心"
+			}
+		},
+		{
+			"path": "pages/mine/notes",
+			"style": {
+				"navigationBarTitleText": "推广须知"
+			}
+		},
+		{
+			"path": "pages/mine/feedback",
+			"style": {
+				"navigationBarTitleText": "用户反馈"
+			}
+		},
+		{
+			"path": "pages/mine/about",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}
+		},
+		{
+			"path": "pages/mine/deposit",
+			"style": {
+				"navigationBarTitleText": "押金"
+			}
+		},
+		{
+			"path": "pages/invite/index",
+			"style": {
+				"navigationBarTitleText": "邀请好友"
+			}
+		},
+		{
+			"path": "pages/invite/called",
+			"style": {
+				"navigationBarTitleText": "唤醒好友"
+			}
+		},
+		{
+			"path": "pages/invite/invite",
+			"style": {
+				"navigationBarTitleText": "邀请"
+			}
+		},
+		{
+			"path": "pages/task/index",
+			"style": {
+				"navigationBarTitleText": "我的任务"
+			}
+		},
+		{
+			"path": "pages/credit/index",
+			"style": {
+				"navigationBarTitleText": "办信用卡"
+			}
+		},
+		{
+			"path": "pages/credit/bank",
+			"style": {
+				"navigationBarTitleText": "办信用卡"
+			}
+		},
+		{
+			"path": "pages/credit/recommend",
+			"style": {
+				"navigationBarTitleText": "办信用卡"
+			}
+		},
+		{
+			"path": "pages/credit/card",
+			"style": {
+				"navigationBarTitleText": "信用卡"
+			}
+		},
+		{
+			"path": "pages/credit/guide",
+			"style": {
+				"navigationBarTitleText": "申卡攻略"
+			}
+		},
+		{
+			"path": "pages/credit/query",
+			"style": {
+				"navigationBarTitleText": "查询进度"
+			}
+		},
+		{
+			"path": "pages/credit/queryBank",
+			"style": {
+				"navigationBarTitleText": "查询进度"
+			}
+		},
+		{
+			"path": "pages/loan/index",
+			"style": {
+				"navigationBarTitleText": "贷款"
+			}
+		},
+		{
+			"path": "pages/loan/details",
+			"style": {
+				"navigationBarTitleText": "贷款"
+			}
+		},
+		{
+			"path": "pages/loan/guide",
+			"style": {
+				"navigationBarTitleText": "贷款攻略"
+			}
+		},
+		{
+			"path": "pages/web/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/mine/setting",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		}
+		
+	],
+	"tabBar": {
+    "color": "#333333",
+    "selectedColor": "#4CD6C0",
+    "backgroundColor": "#ffffff",
+    "list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "影视",
+				"iconPath": "static/images/tab/nav-home.png",
+				"selectedIconPath": "static/images/tab/nav-home-l.png"
+			},
+			{
+				"pagePath": "pages/shop/index",
+				"text": "产品",
+				"iconPath": "static/images/tab/nav-shop.png",
+				"selectedIconPath": "static/images/tab/nav-shop-l.png"
+			},
+			{
+				"pagePath": "pages/mine/index",
+				"text": "我的",
+				"iconPath": "static/images/tab/nav-mine.png",
+				"selectedIconPath": "static/images/tab/nav-mine-l.png"
+			}
+		]
+  },
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "有米兔金服",
+		"navigationBarBackgroundColor": "#F6F6F6",
+		"backgroundColor": "#F6F6F6"
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

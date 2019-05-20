@@ -1,0 +1,150 @@
+.banner.data-v-2cac80da {
+  height: 300rpx;
+  margin-bottom: 20rpx;
+}
+.banner swiper image.data-v-2cac80da {
+    width: 100%;
+}
+.enter.data-v-2cac80da {
+  padding: 24rpx 0;
+  background-color: #fff;
+  border-bottom: 1px solid #f6f6f6;
+}
+.enter .item.data-v-2cac80da {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 24rpx;
+    line-height: 34rpx;
+    color: #333;
+}
+.enter .item image.data-v-2cac80da {
+      width: 80rpx;
+      height: 80rpx;
+      margin-bottom: 10rpx;
+}
+.content.data-v-2cac80da {
+  height: calc(100% - 494rpx);
+}
+.content .lists.data-v-2cac80da {
+    padding-top: 20rpx;
+}
+.content .lists .item.data-v-2cac80da {
+      padding: 0 30rpx;
+      margin-bottom: 20rpx;
+      background-color: #fff;
+}
+.content .lists .item .info.data-v-2cac80da {
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        height: 88rpx;
+        padding: 30rpx 0;
+}
+.content .lists .item .info .pic.data-v-2cac80da {
+          width: 88rpx;
+          height: 88rpx;
+          margin-right: 20rpx;
+}
+.content .lists .item .info .tit.data-v-2cac80da {
+          height: 50rpx;
+          margin-bottom: 6rpx;
+          font-size: 36rpx;
+          font-weight: 700;
+          line-height: 50rpx;
+          color: #4A4A4A;
+}
+.content .lists .item .info .tit text.data-v-2cac80da {
+            margin-left: 20rpx;
+            font-weight: normal;
+            font-size: 26rpx;
+            color: #A1A3B1;
+}
+.content .lists .item .info .tag-item.data-v-2cac80da {
+          padding: 0 10rpx;
+          margin-right: 8rpx;
+          font-size: 22rpx;
+          line-height: 32rpx;
+          color: #D2A100;
+          white-space: nowrap;
+          border: 1px solid #D2A100;
+          border-radius: 4rpx;
+}
+.content .lists .item .info .btn-rule.data-v-2cac80da {
+          height: 44rpx;
+          padding: 0 12rpx;
+          font-size: 22rpx;
+          line-height: 44rpx;
+          color: #D2A100;
+          border: 1px solid #f6f6f6;
+          border-color: #D2A100;
+          border-radius: 8rpx;
+}
+.content .lists .item .info .btn-rule .val.data-v-2cac80da {
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            width: 100%;
+            height: 100%;
+}
+.content .lists .item .info .btn-rule .arrow.data-v-2cac80da {
+            width: 0;
+            height: 0;
+            margin-left: 8rpx;
+            border-width: 12rpx 7.2rpx 0;
+            border-style: solid;
+            border-color: #D2A100 transparent transparent;
+}
+.content .lists .item .explain.data-v-2cac80da {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        padding: 20rpx 0;
+        font-size: 24rpx;
+        line-height: 44rpx;
+        color: #A1A3B1;
+        border-top: 1px solid #f6f6f6;
+}
+.content .lists .item .explain .uni-flex-item.data-v-2cac80da {
+          max-width: 200rpx;
+}
+.content .lists .item .explain .line.data-v-2cac80da {
+          width: 1px;
+          height: 80rpx;
+          background-color: #f6f6f6;
+}
+.content .lists .item .explain .num.data-v-2cac80da {
+          height: 60rpx;
+          font-size: 32rpx;
+          line-height: 60rpx;
+          color: #4f4f4f;
+}
+.content .lists .item .explain .strong.data-v-2cac80da {
+          font-size: 52rpx;
+          color: #D2A100;
+}
+.content .lists .item .explain .em.data-v-2cac80da {
+          font-size: 36rpx;
+          font-weight: normal;
+}
+.content .lists .item .btn.data-v-2cac80da {
+        height: 80rpx;
+        font-size: 28rpx;
+        font-weight: 700;
+        line-height: 80rpx;
+        color: #D2A100;
+        border-top: 1px solid #f6f6f6;
+}
+

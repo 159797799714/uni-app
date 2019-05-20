@@ -1,0 +1,56 @@
+.content.data-v-6e8c2f89 {
+  background-color: #fff;
+}
+.content .main.data-v-6e8c2f89 {
+    padding: 48rpx 30rpx 0;
+}
+.content .main .tit.data-v-6e8c2f89 {
+      margin-bottom: 34rpx;
+      font-size: 40rpx;
+      font-weight: 700;
+      line-height: 56rpx;
+      color: #333;
+}
+.content .main .caption.data-v-6e8c2f89 {
+      margin-bottom: 32rpx;
+      font-size: 36rpx;
+      line-height: 50rpx;
+      color: #D2A100;
+}
+.content .main .intro.data-v-6e8c2f89 {
+      margin-bottom: 20rpx;
+      border-radius: 8rpx;
+      -webkit-box-shadow: 0 2rpx 6rpx 0 rgba(0, 0, 0, 0.2);
+              box-shadow: 0 2rpx 6rpx 0 rgba(0, 0, 0, 0.2);
+}
+.content .main .intro .intro-hd.data-v-6e8c2f89 {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        height: 94rpx;
+        font-size: 40rpx;
+        font-weight: 700;
+        color: #333;
+        border: 1px solid #f6f6f6;
+}
+.content .main .intro .intro-hd image.data-v-6e8c2f89 {
+          width: 80rpx;
+          height: 80rpx;
+          margin-right: 16rpx;
+}
+.content .main .intro .intro-bd.data-v-6e8c2f89 {
+        padding: 50rpx 30rpx;
+        font-size: 32rpx;
+        line-height: 44rpx;
+        color: #333;
+}
+.content .main .intro .intro-bd text.data-v-6e8c2f89 {
+          font-weight: 700;
+          color: #D2A100;
+}
+

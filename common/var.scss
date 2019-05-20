@@ -1,0 +1,64 @@
+$icon-size: 72upx; // icon的大小
+$default-color: #333; // 默认颜色
+$default-bg-color: #f6f6f6; // 默认背景颜色
+$bonus-bg: #FFF0C8; // 奖金说明
+$placeholder-color: #ccc; // 输入框提示颜色
+$input-bg: #eee; // 输入框背景
+$color: #D2A100; // 平台匹配的颜色
+$color-2: #FFCF50; // 平台匹配的颜色
+$color-3: #F0CE66; // 平台匹配的颜色
+$color-4: #0E0C05; // 平台匹配的颜色
+$color-gray: #999; // 灰色
+$color-gray-2: #A1A3B1; // 灰色2
+$color-gray-3: #666; // 灰色3
+$color-gray-4: #4f4f4f; // 灰色4
+$color-gray-5: #bbb; // 灰色5
+$color-white: #fff; // 白色
+$color-black: #000; // 黑色
+$color-title: #616586; // 标题颜色
+$color-text: #4A4A4A; // 文本颜色
+$color-profit: #786011; // 金额面板字体颜色
+$color-nav: #A5A5A5; // 底部操作栏导航字体颜色
+$color-spread: #BAC1C7; // 推广字体
+$color-err: #FF4E29; // err提示颜色
+$color-disabled: #f0f0f0; // 灰色的按钮
+$color-author: #F4F4F4; // 文章作者板块背景颜色
+$color-tag: #FF9800; // 入口标签
+$bg-mask: rgba(0, 0, 0, .6); // 蒙层的颜色
+$border-1: 1px solid $default-bg-color; // 1px的边框
+$border-avatar: 6upx solid rgba(240, 206, 102, .4); // 头像边框
+$box-shadow: 0 2upx 6upx 0 rgba(0, 0, 0, .2); // 投影
+$text-shadow: 0 0 5upx rgba(0, 0, 0, 1); // 文字投影
+$border-radius: 8upx; // 圆角
+$font-size-18: 18upx; // 字体大小18
+$font-size-20: 20upx; // 字体大小20
+$font-size-22: 22upx; // 字体大小22
+$font-size-24: 24upx; // 字体大小24
+$font-size-26: 26upx; // 字体大小26
+$font-size-28: 28upx; // 字体大小28
+$font-size-30: 30upx; // 字体大小30
+$font-size-32: 32upx; // 字体大小32
+$font-size-36: 36upx; // 字体大小36
+$font-size-40: 40upx; // 字体大小40
+$font-size-44: 44upx; // 字体大小44
+$font-size-48: 48upx; // 字体大小48
+$font-size-52: 52upx; // 字体大小52
+$font-size-56: 56upx; // 字体大小56
+$font-size-64: 64upx; // 字体大小64
+$font-size-80: 80upx; // 字体大小80
+$bg-linear-chunk: linear-gradient(180deg, rgba(28, 28, 31, 1) 0%,rgba(63, 38, 0, 1) 100%); // 首页欢迎模块数字背景渐变
+$bg-linear-welcome: linear-gradient(270deg, rgba(132, 196, 214, 1) 0%,rgba(98, 125, 214, 1) 100%); // 首页欢迎模块按钮渐变
+$level-1-bg: linear-gradient(180deg, rgba(232,232,232,1), rgba(220,220,220,1)); // 临时用户
+$level-2-bg: #D1DADF; // 实习
+$level-3-bg: #747986; // 正式
+$level-4-bg: #8F6C2B; // 高级
+$level-5-bg: #C47100; // 首席
+$partner-bg: rgba(245, 196, 66, .14); // 个人中心合伙人入口背景
+$default-btn-linear: linear-gradient(180deg, rgba(255, 207, 80, 1), rgba(245, 196, 66, 1)); // 按钮渐变
+$mine-linear: linear-gradient(-180deg, rgba(255, 230, 155, 1), rgba(255, 203, 110, 1)); // 个人中心面板
+$tab-linear: linear-gradient(-90deg, rgba(180,141,14,1), rgba(232,183,51,1)); // tab滑块渐变
+$line-linear: linear-gradient(left, rgba(210, 161, 0, 0), rgba(210, 161, 0, 1), rgba(210, 161, 0, 0)); // 线条渐变
+$loan-linear: linear-gradient(90deg, rgba(219, 203, 153, 1) 0%,rgba(189, 161, 104, 1) 100%); // 贷款详情
+$about-linear: linear-gradient(-180deg, rgba(63,38,0,1), rgba(28,28,31,1)); // 关于页
+$task-linear: linear-gradient(-180deg, rgba(255, 96, 12, 1),rgba(244, 139, 2, 1)); // 邀请页任务模块
+$task-linear-2: linear-gradient(180deg, rgba(119, 179, 218, 1), rgba(98, 125, 214, 1)); // 任务页进度详情

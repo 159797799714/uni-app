@@ -1,0 +1,12 @@
+<import src="/components/toDecima.vue.wxml" />
+<import src="/components/poster.vue.wxml" />
+<import src="/components/relation.vue.wxml" />
+<import src="/components/agreement.vue.wxml" />
+<import src="/components/addContact.vue.wxml" />
+<import src="/components/contact.vue.wxml" />
+<import src="/components/rewardRule.vue.wxml" />
+<import src="/pages/loan/poster.vue.wxml" />
+<import src="/pages/credit/poster.vue.wxml" />
+<import src="/components/levelImg.vue.wxml" />
+<import src="/pages/invite/poster.vue.wxml" />
+

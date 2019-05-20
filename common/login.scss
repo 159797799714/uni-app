@@ -1,0 +1,13 @@
+$border:2upx solid #fff;
+$height:82upx;
+$radius:12upx;
+$color-white:#fff;
+.content,.content-main{height: 100%;width: 100%;}
+.content-bg{
+  position: absolute; top: 0; left: 0; z-index: -1; width: 100%; height: 100%; overflow: hidden;
+  image{
+    width: 750upx; min-height: 1208upx; height: 100%;
+  }
+}
+.content-main{position: absolute;top: 0;left: 0;}
+.logo{width: 401upx;height: 188upx;margin:73upx 0upx 90upx 182upx;}

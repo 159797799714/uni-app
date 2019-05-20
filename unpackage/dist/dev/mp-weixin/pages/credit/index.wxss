@@ -1,0 +1,160 @@
+.banner.data-v-5115903a {
+  margin-bottom: 20rpx;
+}
+.banner image.data-v-5115903a {
+    width: 100%;
+}
+.recommend.data-v-5115903a {
+  background-color: #fff;
+}
+.recommend .title.data-v-5115903a {
+    margin-bottom: 0;
+}
+.recommend .item.data-v-5115903a {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 50%;
+    height: 160rpx;
+    padding: 0 146rpx 0 30rpx;
+    font-size: 28rpx;
+    font-weight: 700;
+    line-height: 40rpx;
+}
+.recommend .item .gray.data-v-5115903a {
+      margin-top: 8rpx;
+      font-size: 22rpx;
+      font-weight: normal;
+      line-height: 32rpx;
+      color: #999;
+}
+.recommend .item image.data-v-5115903a {
+      top: 50%;
+      right: 40rpx;
+      width: 96rpx;
+      height: 96rpx;
+      margin-top: -48rpx;
+}
+.bank.data-v-5115903a {
+  margin-bottom: 20rpx;
+}
+.bank .lists.data-v-5115903a {
+    padding-left: 20rpx;
+}
+.bank .lists .item.data-v-5115903a {
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      width: 234rpx;
+      height: 352rpx;
+      padding: 44rpx 10rpx 0;
+      margin: 0 4rpx 4rpx 0;
+      background-color: #fff;
+      border-radius: 8rpx;
+}
+.bank .lists .item.gray.data-v-5115903a {
+        -webkit-filter: grayscale(100%);
+                filter: grayscale(100%);
+}
+.bank .lists .item .tag.data-v-5115903a {
+        top: 12rpx;
+        right: 16rpx;
+        padding: 0 12rpx;
+        font-size: 18rpx;
+        line-height: 1.778em;
+        color: #FFCF50;
+        background: -webkit-gradient(linear, left top, left bottom, from(#1c1c1f), to(#3f2600));
+        background: -o-linear-gradient(top, #1c1c1f 0%, #3f2600 100%);
+        background: linear-gradient(180deg, #1c1c1f 0%, #3f2600 100%);
+        border-radius: 4rpx;
+}
+.bank .lists .item image.data-v-5115903a {
+        width: 120rpx;
+        height: 120rpx;
+        margin-bottom: 8rpx;
+}
+.bank .lists .item .name.data-v-5115903a {
+        height: 36rpx;
+        line-height: 36rpx;
+}
+.bank .lists .item .intro.data-v-5115903a {
+        height: 32rpx;
+        font-size: 22rpx;
+        line-height: 32rpx;
+        color: #999;
+}
+.bank .lists .item .reward.data-v-5115903a {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        width: 180rpx;
+        height: 48rpx;
+        margin: 16rpx auto 0;
+        font-size: 22rpx;
+        line-height: 48rpx;
+        color: #D2A100;
+        border: 1px solid #D2A100;
+        border-radius: 48rpx;
+}
+.bank .lists .item .reward .earn.data-v-5115903a {
+          margin-left: 8rpx;
+}
+.bank .lists .item .reward .arrow.data-v-5115903a {
+          width: 0;
+          height: 0;
+          margin-left: 8rpx;
+          border-width: 12rpx 7.2rpx 0;
+          border-style: solid;
+          border-color: #D2A100 transparent transparent;
+}
+.bank .lists .item .apply.data-v-5115903a {
+        width: 180rpx;
+        height: 48rpx;
+        margin: 16rpx auto 0;
+        font-size: 22rpx;
+        line-height: 48rpx;
+        color: #D2A100;
+        border: 1px solid #D2A100;
+        border-radius: 48rpx;
+}
+.query.data-v-5115903a {
+  padding: 0 20rpx;
+  margin-bottom: 20rpx;
+}
+.query .query-con.data-v-5115903a {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 20rpx 30rpx;
+    font-size: 24rpx;
+    line-height: 34rpx;
+    color: #999;
+    background-color: #fff;
+    border-radius: 8rpx;
+    -webkit-box-shadow: 0 2rpx 6rpx 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 2rpx 6rpx 0 rgba(0, 0, 0, 0.2);
+}
+.query .query-con .icon.data-v-5115903a {
+      width: 92rpx;
+      height: 92rpx;
+      margin-right: 30rpx;
+}
+.query .query-con .bold.data-v-5115903a {
+      margin-bottom: 2rpx;
+      font-size: 28rpx;
+      line-height: 40rpx;
+      color: #333;
+}
+.query .query-con .arrow.data-v-5115903a {
+      width: 24rpx;
+      height: 48rpx;
+}
+

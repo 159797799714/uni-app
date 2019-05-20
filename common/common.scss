@@ -1,0 +1,270 @@
+@import '../common/var';
+
+page{ height: 100%; font-family:"PingFang SC", -apple-system, BlinkMacSystemFont,"Segoe UI", Roboto, Ubuntu,"Helvetica Neue" , Helvetica, Arial, "Hiragino Sans GB","Microsoft YaHei UI", "Microsoft YaHei", "Source Han Sans CN",sans-serif; font-size: $font-size-26; color: $default-color; background-color: $default-bg-color; overflow: hidden; }
+image{ display: block; }
+.container{ position: relative; width: 100%; height: 100%; overflow: hidden; }
+.content{ position: relative; height: 100%; overflow: hidden; }
+.content-has-operation{ height: calc(100% - 120upx); }
+.uni-pr{ position: relative; }
+.uni-pa{ position: absolute; }
+.uni-txc{ text-align: center; }
+.uni-txl{ text-align: left; }
+.uni-txr{ text-align: right; }
+.uni-ht{ text-indent: -9999em; }
+.uni-textover{ width: 100%; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
+.uni-textover-box{ display: -webkit-box; text-overflow: ellipsis; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.uni-ovh{ overflow: hidden; }
+.uni-disabled{ opacity: .4; pointer-events: none; }
+.uni-box{ box-sizing: border-box; }
+.uni-flex{ display: flex; flex-direction: row; }
+.uni-flex-item{ flex: 1; overflow: hidden; }
+.uni-row{ flex-direction: row; }
+.uni-column{ flex-direction: column; }
+.uni-flex-wrap{ flex-wrap: wrap; }
+.input-placeholder{ color: $placeholder-color; }
+.input-placeholder-2{ font-family: '宋体'; font-size: 40upx; }
+.disabled{ opacity: .4; pointer-events: none; }
+
+.scroll-view{ height: 100%; }
+
+@font-face {
+	font-family: 'Number';
+	src: url('data:application/font-woff;base64,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');
+}
+.font-number{ font-family: "Number"; }
+
+// 标题
+.title{
+  box-sizing: border-box; height: 80upx; padding: 0 20upx; margin-bottom: 20upx;
+  view{
+    padding-left: 16upx; font-size: $font-size-32; font-weight: 700; line-height: 80upx; color: $default-color;
+  }
+  image{
+    top: 50%; left: -2upx; width: 14upx; height: 44upx; transform: translateY(-50%); pointer-events: none;
+  }
+}
+.title-2{
+  justify-content: center; padding: 10upx 0; margin-bottom: 20upx; font-size: $font-size-32; line-height: $font-size-32 + 12upx; color: $color-title;
+  .line{
+    width: 80upx; height: 14upx;
+  }
+  .line-left{
+    top: 50%; left: -120upx; transform: translateY(-50%);
+  }
+  .line-right{
+    top: 50%; right: -120upx; transform: translateY(-50%) rotateZ(180deg);
+  }
+}
+
+// 输入框
+.input-box{
+  input{
+    box-sizing: border-box; /* padding-right: 48upx; */
+  }
+  .icon-clear{
+    top: 50%; right: 0; width: 48upx; height: 48upx; transform: translateY(-50%);
+  }
+}
+
+// 金额数据展示
+.profit{
+  z-index: 3; height: 280upx; padding: 26upx 0; margin: 0 20upx 20upx; background: $mine-linear; border-radius: $border-radius;
+  .num{
+    font-size: $font-size-48; line-height: 56upx; color: $color-profit;
+  }
+  .total{
+    top: 30upx; left: 0; width: 100%;
+    .num{
+      font-size: $font-size-56; line-height: 64upx;
+    }
+  }
+  .stay{
+  	padding: 140upx 10upx 0;
+  }
+  .text{
+    font-size: $font-size-22; line-height: 32upx; color: $color-profit;
+  }
+  .btn-put{
+    top: 44upx; right: 30upx; z-index: 3; justify-content: center; align-items: center; width: 144upx; height: 48upx; padding-left: 10upx; color: $color-profit; border: $border-1; border-color: $color-profit; border-radius: 48upx;
+    image{
+      width: 48upx; height: 48upx;
+    }
+  }
+}
+
+// 信用卡列表
+.card{
+  margin-bottom: 20upx; background-color: $color-white;
+  .title{
+    margin-bottom: 0;
+  }
+  .item{
+    align-items: center; height: 192upx; padding: 0 30upx; border-bottom: $border-1;
+    image{
+      width: 192upx; height: 120upx; margin-right: 24upx;
+    }
+    .name{
+      height: 40upx; font-size: $font-size-28; line-height: 40upx;
+    }
+    .gray{
+      height: 32upx; font-size: $font-size-22; line-height: 32upx; color: $color-gray;
+    }
+    .tag{
+      margin-top: 12upx;
+      .tag-item{
+        padding: 0 10upx; margin-right: 8upx; font-size: $font-size-22; line-height: $font-size-22 + 10upx; color: $color; white-space: nowrap; border: 1px solid $color; border-radius: 4upx;
+      }
+    }
+  }
+}
+
+// 弹窗
+.pop{
+  position: absolute; top: 0; left: 0; z-index: 99; width: 100%; height: 100%; overflow: hidden;
+  .mask{
+    position: relative; z-index: 1; width: 100%; height: 100%; background-color: $bg-mask;
+  }
+  .pop-con{
+    position: absolute; z-index: 3; bottom: 0; left: 0; width: 100%; background-color: $color-white; border-radius: $border-radius $border-radius 0 0;
+  }
+  .pop-con-2{
+    position: absolute; z-index: 3; top: 50%; left: 50%; background-color: $color-white; border-radius: $border-radius; transform: translate(-50%, -50%);
+  }
+}
+
+// 底部操作栏
+.operation{
+  height: 120upx; padding: 18upx 30upx; background-color: $color-white;
+  .left{
+    view{
+      justify-content: center; align-items: center; width: 96upx; height: 100%; margin-right: 24upx; font-size: $font-size-20; line-height: 24upx; color: $color-nav;
+      image{
+        width: 60upx; height: 60upx;
+      }
+    }
+  }
+  .right{
+    height: 100%; border-radius: 84upx;
+    view{
+      height: 84upx; font-size: $font-size-28; font-weight: 700; line-height: 84upx; color: $color-4; background: $default-btn-linear;
+      &.gray{
+        background: $level-1-bg;
+      }
+    }
+  }
+}
+.operation-2{
+  display: flex; box-sizing: border-box; width: 100%; height: 120upx; padding: 18upx 15upx; background-color: $color-white;
+  view{
+    flex: 1; height: 84upx; margin: 0 15upx; font-size: $font-size-28; font-weight: 700; line-height: 84upx; color: $color-4; text-align: center; background: $default-btn-linear; border-radius: 84upx;
+    &.gray{
+      background: $level-1-bg;
+    }
+  }
+}
+
+// tab
+.nav{
+  height: 88upx; margin-bottom: 16upx; background-color: $color-white;
+  .item{
+    height: 100%; font-size: $font-size-32; line-height: 88upx; color: $color-gray-4;
+    &.on{
+      color: $color;
+    }
+  }
+  .actived{
+    bottom: 0; height: 4upx; background-color: $color; transition: left ease .5s; pointer-events: none;
+  }
+}
+.tab-hd{
+  height: 120upx; padding: 28upx 20upx; background-color: $color-white;
+  .box{
+    height: 64upx; line-height: 64upx; border: $border-1; border-color: $color; border-radius: 64upx;
+    .lists{
+      z-index: 5;
+      .item{
+        color: $color; transition: color ease .5s;
+        &.on{
+          color: $color-white;
+        }
+        &.off{
+          flex: 1;
+        }
+      }
+    }
+  }
+  .actived{
+    top: 0; z-index: 1; height: 100%; background: $tab-linear; border-radius: 64upx; transition: left ease .5s;
+  }
+}
+.tab-hd-2{
+  height: 78upx;
+  .item{
+    height: 78upx; font-size: 28upx; font-weight: 700; line-height: 78upx; color: $color-gray;
+    &.on{
+    	color: $color;
+    }
+  }
+  .actived{
+    bottom: 0; left: 0; width: 112upx; height: 4upx; background-color: $color; transition: left .4s ease; transform: translateX(-50%); pointer-events: none;
+  }
+}
+
+// 搜索
+.search{
+  padding: 16upx 20upx;
+  input{
+    width: 100%; height: 64upx; padding: 0 144upx 0 80upx; background-color: $input-bg; border-radius: 64upx;
+  }
+  .icon-search{
+    top: 50%; left: 24upx; width: 48upx; height: 48upx; transform: translateY(-50%);
+  }
+  .btn-search{
+    top: 0; right: 0; width: 144upx; height: 100%; line-height: 64upx; color: $color;
+  }
+}
+.no-record{
+  justify-content: center; align-items: center; height: 100%; font-size: $font-size-28; line-height: 40upx; color: $color-gray;
+  image{
+    width: 144upx; height: 144upx; margin-bottom: 24upx;
+  }
+}
+
+// 升级进度
+.progress-box{
+  justify-content: space-between; width: 100%; padding: 0 30upx; margin-bottom: 20upx;
+  .explain{
+    margin-bottom: 14upx; font-size: $font-size-26; line-height: 36upx; color: $color-gray;
+    text{
+      color: $color;
+    }
+  }
+  .details-con{
+    justify-content: center; align-items: center; height: 138upx; margin: 0 10upx; font-size: $font-size-22; line-height: 32upx; color: $color; background-color: $color-white; border-radius: $border-radius;
+    .big{
+      font-size: $font-size-48; font-weight: 700; line-height: 66upx;
+    }
+  }
+}
+
+// 选择分享类型
+.pop-share-type{
+  .spread{
+    padding: 80upx 0 40upx;
+    view{
+      align-items: center; font-size: $font-size-28; line-height: 40upx; color: $color-gray-4;
+      image{
+        width: 116upx; height: 116upx; margin-bottom: 20upx;
+      }
+    }
+  }
+  .shorturl{
+    padding: 0 30upx 20upx;
+    .txt{
+      height: 88upx; padding: 0 40upx; font-size: $font-size-28; line-height: 88upx; color: $color-gray-3; background-color: $default-bg-color; border: $border-1; border-color: $input-bg; border-radius: 88upx 0 0 88upx;
+    }
+    .btn{
+      width: 200upx; height: 88upx; font-size: .28rem; line-height: 88upx; color: $default-color; background: $default-btn-linear; border-radius: 0 88upx 88upx 0;
+    }
+  }
+}

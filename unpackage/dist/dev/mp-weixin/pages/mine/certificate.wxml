@@ -1,0 +1,2 @@
+<import src="./certificate.vue.wxml" />
+    <template is="0ed7d4ea" data="{{ ...$root['0'], $root }}"/>

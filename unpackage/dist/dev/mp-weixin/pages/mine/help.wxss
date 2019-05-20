@@ -1,0 +1,79 @@
+.feedback.data-v-c47f6634 {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20rpx 0 20rpx 20rpx;
+}
+.feedback view.data-v-c47f6634 {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 160rpx;
+    margin-right: 20rpx;
+    font-size: 28rpx;
+    color: #D2A100;
+    background-color: #fff;
+    border: 4rpx solid #D2A100;
+    border-radius: 8rpx;
+}
+.feedback view image.data-v-c47f6634 {
+      width: 72rpx;
+      height: 72rpx;
+      margin-right: 8rpx;
+}
+.tab-hd-2.data-v-c47f6634 {
+  background-color: #fff;
+  border-bottom: 1px solid #f6f6f6;
+}
+.content.data-v-c47f6634 {
+  height: calc(100% - 286rpx);
+}
+.content .lists.data-v-c47f6634 {
+    padding-bottom: 20rpx;
+}
+.content .lists .question-hd.data-v-c47f6634 {
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      height: 96rpx;
+      padding: 0 92rpx 0 30rpx;
+      font-size: 28rpx;
+      color: #333;
+      background-color: #fff;
+      border-bottom: 1px solid #f6f6f6;
+}
+.content .lists .question-hd image.data-v-c47f6634 {
+        top: 50%;
+        right: 22rpx;
+        width: 48rpx;
+        height: 48rpx;
+        margin-top: -24rpx;
+        -webkit-transition: all .4s ease;
+        -o-transition: all .4s ease;
+        transition: all .4s ease;
+}
+.content .lists .question-bd.data-v-c47f6634 {
+      height: 0;
+}
+.content .lists .question-bd view.data-v-c47f6634 {
+        padding: 25rpx 30rpx;
+        font-size: 26rpx;
+        line-height: 36rpx;
+        color: #999;
+}
+.content .show .question-hd image.data-v-c47f6634 {
+    -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+}
+.content .show .question-bd.data-v-c47f6634 {
+    height: auto;
+}
+
