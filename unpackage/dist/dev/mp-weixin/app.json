@@ -80,5 +80,6 @@
         "selectedIconPath": "static/images/tab/nav-mine-l.png"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }

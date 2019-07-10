@@ -1,0 +1,2 @@
+<import src="./poster.vue.wxml" />
+    <template is="09bad289" data="{{ ...$root['0'], $root }}"/>

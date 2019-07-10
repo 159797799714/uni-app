@@ -1,0 +1,200 @@
+.content.data-v-5a211649 {
+  background-color: #fff;
+}
+.content .canbe.data-v-5a211649 {
+    padding: 20rpx 20rpx 10rpx;
+}
+.content .canbe .canbe-con.data-v-5a211649 {
+      padding: 40rpx 30rpx;
+      background-color: #FFCF50;
+      -webkit-border-radius: 8rpx;
+              border-radius: 8rpx;
+}
+.content .canbe .canbe-con .tit.data-v-5a211649 {
+        margin-bottom: 10rpx;
+        font-size: 24rpx;
+        line-height: 34rpx;
+        color: #786011;
+}
+.content .canbe .canbe-con .opra.data-v-5a211649 {
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        font-size: 60rpx;
+        line-height: 70rpx;
+        color: #786011;
+}
+.content .canbe .canbe-con .opra .btn.data-v-5a211649 {
+          height: 44rpx;
+          padding: 0 20rpx;
+          font-size: 24rpx;
+          line-height: 44rpx;
+          color: #786011;
+          border: 1px solid #f6f6f6;
+          border-color: #786011;
+          -webkit-border-radius: 44rpx;
+                  border-radius: 44rpx;
+}
+.content .cash.data-v-5a211649 {
+    padding: 20rpx 20rpx 0;
+}
+.content .cash .money.data-v-5a211649 {
+      padding: 0 30rpx 30rpx;
+      margin-bottom: 20rpx;
+      background-color: #fff;
+      -webkit-border-radius: 8rpx;
+              border-radius: 8rpx;
+}
+.content .cash .money .tit.data-v-5a211649 {
+        font-size: 32rpx;
+        line-height: 120rpx;
+        color: #333;
+}
+.content .cash .money .input-cash.data-v-5a211649 {
+        -webkit-box-align: end;
+        -webkit-align-items: flex-end;
+            -ms-flex-align: end;
+                align-items: flex-end;
+        height: 100rpx;
+        margin-bottom: 40rpx;
+}
+.content .cash .money .input-cash view.data-v-5a211649 {
+          margin-right: 20rpx;
+          font-size: 64rpx;
+          color: #333;
+}
+.content .cash .money .input-cash input.data-v-5a211649 {
+          height: 100rpx;
+          font-size: 96rpx;
+          color: #333;
+}
+.content .cash .money .choice-num.data-v-5a211649 {
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        height: 100rpx;
+        padding: 0 20rpx;
+        margin-bottom: 40rpx;
+}
+.content .cash .money .choice-num view.data-v-5a211649 {
+          width: 180rpx;
+          height: 100rpx;
+          font-size: 40rpx;
+          line-height: 100rpx;
+          color: #FFCF50;
+          text-align: center;
+          border: 1px solid #f6f6f6;
+          border-color: #FFCF50;
+          -webkit-border-radius: 8rpx;
+                  border-radius: 8rpx;
+}
+.content .cash .money .choice-num view.gray.data-v-5a211649 {
+            color: #333;
+            background-color: #F3F3F3;
+            border-color: #F3F3F3;
+}
+.content .cash .money .choice-num view.on.data-v-5a211649 {
+            color: #333;
+            background-color: #FFCF50;
+}
+.content .cash .money .choice-num view.on.gray.data-v-5a211649 {
+            background-color: #F3F3F3;
+            border-color: #FFCF50;
+}
+.content .cash .money .choice-explain.data-v-5a211649 {
+        padding-top: 20rpx;
+}
+.content .cash .money .choice-explain .uni-flex.data-v-5a211649 {
+          margin-top: 20rpx;
+          font-size: 24rpx;
+          line-height: 36rpx;
+          color: #999;
+}
+.content .cash .money .choice-explain .uni-flex view.data-v-5a211649 {
+            width: 70rpx;
+            height: 36rpx;
+            margin-right: 20rpx;
+            border: 1px solid #f6f6f6;
+            border-color: #FFCF50;
+            -webkit-border-radius: 8rpx;
+                    border-radius: 8rpx;
+}
+.content .cash .money .choice-explain .uni-flex view.choiced.data-v-5a211649 {
+              background-color: #FFCF50;
+}
+.content .cash .money .choice-explain .uni-flex view.gray.data-v-5a211649 {
+              background-color: #F3F3F3;
+              border-color: #F3F3F3;
+}
+.content .cash .money .operable.data-v-5a211649 {
+        margin-bottom: 24rpx;
+        font-size: 24rpx;
+        line-height: 34rpx;
+        color: #999;
+}
+.content .cash .money .operable .warn.data-v-5a211649 {
+          color: #FF4E29;
+}
+.content .cash .money .operable .btn-packet.data-v-5a211649 {
+          top: 50%;
+          right: 0;
+          height: 52rpx;
+          padding: 0 34rpx;
+          font-size: 24rpx;
+          line-height: 52rpx;
+          color: #333;
+          background: -webkit-gradient(linear, left top, left bottom, from(#ffcf50), to(#f5c442));
+          background: -webkit-linear-gradient(top, #ffcf50, #f5c442);
+          background: -o-linear-gradient(top, #ffcf50, #f5c442);
+          background: linear-gradient(180deg, #ffcf50, #f5c442);
+          -webkit-border-radius: 52rpx;
+                  border-radius: 52rpx;
+          -webkit-transform: translateY(-50%);
+              -ms-transform: translateY(-50%);
+                  transform: translateY(-50%);
+}
+.content .res.data-v-5a211649 {
+    padding: 58rpx 30rpx 100rpx;
+    font-size: 32rpx;
+    line-height: 44rpx;
+    color: #333;
+    -webkit-border-radius: 8rpx;
+            border-radius: 8rpx;
+}
+.content .res .res-text.data-v-5a211649 {
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      margin-bottom: 20rpx;
+}
+.content .res .res-text image.data-v-5a211649 {
+        width: 144rpx;
+        height: 144rpx;
+}
+.content .res .res-text .text.data-v-5a211649 {
+        margin-top: 4rpx;
+        font-size: 24rpx;
+        line-height: 34rpx;
+        color: #999;
+}
+.content .tips.data-v-5a211649 {
+    padding: 4rpx 40rpx 20rpx;
+    font-size: 24rpx;
+    line-height: 40rpx;
+    color: #999;
+}
+.operation-2.data-v-5a211649 {
+  height: auto;
+  padding: 0;
+}
+.operation-2 view.data-v-5a211649 {
+    margin: 0;
+}
+

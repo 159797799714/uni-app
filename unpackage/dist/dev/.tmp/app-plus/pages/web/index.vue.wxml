@@ -1,0 +1,1 @@
+<template name="2a6f5777"><view class="_view M2a6f5777 container"><view class="_view M2a6f5777 content"><scroll-view scroll-y class="_scroll-view M2a6f5777 scroll-view"><web-view src="{{src}}" class="_web-view M2a6f5777"></web-view></scroll-view></view></view></template>

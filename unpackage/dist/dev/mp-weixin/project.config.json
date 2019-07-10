@@ -1,41 +1,49 @@
 {
-  "description": "项目配置文件。",
-  "packOptions": {
-    "ignore": []
-  },
-  "setting": {
-    "urlCheck": true,
-    "postcss": true,
-    "minified": true,
-    "es6": true
-  },
-  "compileType": "miniprogram",
-  "libVersion": "",
-  "appid": "touristappid",
-  "projectname": "再见影城",
-  "condition": {
-    "search": {
-      "current": -1,
-      "list": []
-    },
-    "conversation": {
-      "current": -1,
-      "list": []
-    },
-    "game": {
-      "current": -1,
-      "list": []
-    },
-    "miniprogram": {
-      "current": 0,
-      "list": [
-        {
-          "name": "",
-          "path": "",
-          "query": "",
-          "id": 0
-        }
-      ]
-    }
-  }
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"postcss": true,
+		"minified": true,
+		"es6": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.6.4",
+	"appid": "touristappid",
+	"projectname": "再见影城",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 1,
+			"list": [
+				{
+					"name": "",
+					"path": "",
+					"query": "",
+					"id": 0
+				},
+				{
+					"id": 1,
+					"name": "pages/mine/about",
+					"pathName": "pages/mine/about",
+					"query": ""
+				}
+			]
+		}
+	}
 }

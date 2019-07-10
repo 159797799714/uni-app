@@ -1,2 +1,0 @@
-<import src="./feedback.vue.wxml" />
-    <template is="fab15ddc" data="{{ ...$root['0'], $root }}"/>

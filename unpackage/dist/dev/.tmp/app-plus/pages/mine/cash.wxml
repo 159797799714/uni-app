@@ -1,0 +1,2 @@
+<import src="./cash.vue.wxml" />
+    <template is="59fc5ee2" data="{{ ...$root['0'], $root }}"/>

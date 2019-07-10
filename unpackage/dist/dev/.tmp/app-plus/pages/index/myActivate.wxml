@@ -1,0 +1,2 @@
+<import src="./myActivate.vue.wxml" />
+    <template is="a9408a08" data="{{ ...$root['0'], $root }}"/>

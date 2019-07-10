@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+        <meta charset="UTF-8" />
+        <script>
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
+                CSS.supports('top: constant(a)'))
+            document.write(
+                '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+                (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+        </script>
+        <title>View</title>
+        <style>
+            * {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            input[type="search"i]::-webkit-search-cancel-button {
+                display: none;
+            }
+        </style>
+        <script>
+            var __wxConfig = {"debug":false,"appname":"再见影城","entryPagePath":"pages/login/index.html","page":{"pages/login/index.html":{"window":{"usingComponents":{},"navigationBarTitleText":"登录"}},"pages/login/register.html":{"window":{"usingComponents":{},"navigationBarTitleText":"注册"}},"pages/login/forget.html":{"window":{"usingComponents":{},"navigationBarTitleText":"忘记密码"}},"pages/index/index.html":{"window":{"usingComponents":{},"navigationBarTitleText":"首页"}},"pages/index/member.html":{"window":{"usingComponents":{},"navigationBarTitleText":"会员购买"}},"pages/index/activate.html":{"window":{"usingComponents":{},"navigationBarTitleText":"激活码超市"}},"pages/index/myActivate.html":{"window":{"usingComponents":{},"navigationBarTitleText":"我的激活码"}},"pages/shop/index.html":{"window":{"usingComponents":{},"navigationBarTitleText":"产品"}},"pages/spread/index.html":{"window":{"usingComponents":{},"navigationBarTitleText":"推广"}},"pages/spread/material.html":{"window":{"usingComponents":{},"navigationBarTitleText":"推广素材库"}},"pages/spread/essay.html":{"window":{"usingComponents":{},"navigationBarTitleText":"文章详情"}},"pages/spread/experience.html":{"window":{"usingComponents":{},"navigationBarTitleText":"推广经验谈"}},"pages/spread/hot.html":{"window":{"usingComponents":{},"navigationBarTitleText":"热文攻略"}},"pages/spread/content.html":{"window":{"usingComponents":{},"navigationBarTitleText":"文章详情"}},"pages/spread/poster.html":{"window":{"usingComponents":{},"navigationBarTitleText":"推广海报"}},"pages/mine/index.html":{"window":{"usingComponents":{},"navigationBarTitleText":"我的"}},"pages/mine/account.html":{"window":{"usingComponents":{},"navigationBarTitleText":"帐号中心"}},"pages/mine/order.html":{"window":{"usingComponents":{},"navigationBarTitleText":"我的订单"}},"pages/mine/earning.html":{"window":{"usingComponents":{},"navigationBarTitleText":"收入明细"}},"pages/mine/cash.html":{"window":{"usingComponents":{},"navigationBarTitleText":"提现"}},"pages/mine/team.html":{"window":{"usingComponents":{},"navigationBarTitleText":"我的团队"}},"pages/mine/agentIntro.html":{"window":{"usingComponents":{},"navigationBarTitleText":"VIP介绍"}},"pages/mine/agent.html":{"window":{"usingComponents":{},"navigationBarTitleText":"升级VIP"}},"pages/mine/certificate.html":{"window":{"usingComponents":{},"navigationBarTitleText":"授权证书"}},"pages/mine/notice.html":{"window":{"usingComponents":{},"navigationBarTitleText":"公告"}},"pages/mine/kf.html":{"window":{"usingComponents":{},"navigationBarTitleText":"客服"}},"pages/mine/help.html":{"window":{"usingComponents":{},"navigationBarTitleText":"帮助中心"}},"pages/mine/notes.html":{"window":{"usingComponents":{},"navigationBarTitleText":"推广须知"}},"pages/mine/feedback.html":{"window":{"usingComponents":{},"navigationBarTitleText":"用户反馈"}},"pages/mine/about.html":{"window":{"usingComponents":{},"navigationBarTitleText":"关于我们"}},"pages/mine/deposit.html":{"window":{"usingComponents":{},"navigationBarTitleText":"押金"}},"pages/invite/index.html":{"window":{"usingComponents":{},"navigationBarTitleText":"邀请好友"}},"pages/invite/called.html":{"window":{"usingComponents":{},"navigationBarTitleText":"唤醒好友"}},"pages/invite/invite.html":{"window":{"usingComponents":{},"navigationBarTitleText":"邀请"}},"pages/task/index.html":{"window":{"usingComponents":{},"navigationBarTitleText":"我的任务"}},"pages/credit/index.html":{"window":{"usingComponents":{},"navigationBarTitleText":"办信用卡"}},"pages/credit/bank.html":{"window":{"usingComponents":{},"navigationBarTitleText":"办信用卡"}},"pages/credit/recommend.html":{"window":{"usingComponents":{},"navigationBarTitleText":"办信用卡"}},"pages/credit/card.html":{"window":{"usingComponents":{},"navigationBarTitleText":"信用卡"}},"pages/credit/guide.html":{"window":{"usingComponents":{},"navigationBarTitleText":"申卡攻略"}},"pages/credit/query.html":{"window":{"usingComponents":{},"navigationBarTitleText":"查询进度"}},"pages/credit/queryBank.html":{"window":{"usingComponents":{},"navigationBarTitleText":"查询进度"}},"pages/loan/index.html":{"window":{"usingComponents":{},"navigationBarTitleText":"贷款"}},"pages/loan/details.html":{"window":{"usingComponents":{},"navigationBarTitleText":"贷款"}},"pages/loan/guide.html":{"window":{"usingComponents":{},"navigationBarTitleText":"贷款攻略"}},"pages/web/index.html":{"window":{"usingComponents":{},"navigationBarTitleText":""}},"pages/mine/setting.html":{"window":{"usingComponents":{},"navigationBarTitleText":"设置"}}},"global":{"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"有米兔金服","navigationBarBackgroundColor":"#F6F6F6","backgroundColor":"#F6F6F6"}},"tabBar":{"color":"#333333","selectedColor":"#4CD6C0","backgroundColor":"#ffffff","borderStyle":"black","list":[{"pagePath":"pages/index/index.html","text":"影视","iconPath":"static/images/tab/nav-home.png","selectedIconPath":"static/images/tab/nav-home-l.png"},{"pagePath":"pages/shop/index.html","text":"产品","iconPath":"static/images/tab/nav-shop.png","selectedIconPath":"static/images/tab/nav-shop-l.png"},{"pagePath":"pages/mine/index.html","text":"我的","iconPath":"static/images/tab/nav-mine.png","selectedIconPath":"static/images/tab/nav-mine-l.png"}],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/login/index","pages/login/register","pages/login/forget","pages/index/index","pages/index/member","pages/index/activate","pages/index/myActivate","pages/shop/index","pages/spread/index","pages/spread/material","pages/spread/essay","pages/spread/experience","pages/spread/hot","pages/spread/content","pages/spread/poster","pages/mine/index","pages/mine/account","pages/mine/order","pages/mine/earning","pages/mine/cash","pages/mine/team","pages/mine/agentIntro","pages/mine/agent","pages/mine/certificate","pages/mine/notice","pages/mine/kf","pages/mine/help","pages/mine/notes","pages/mine/feedback","pages/mine/about","pages/mine/deposit","pages/invite/index","pages/invite/called","pages/invite/invite","pages/task/index","pages/credit/index","pages/credit/bank","pages/credit/recommend","pages/credit/card","pages/credit/guide","pages/credit/query","pages/credit/queryBank","pages/loan/index","pages/loan/details","pages/loan/guide","pages/web/index","pages/mine/setting"],"subPackages":[],"usingComponents":{},"nvueCompiler":"weex","splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"compilerVersion":"2.0.0"}
+        </script>
+        <script>
+            var __id__ = '';
+            window.__dispatchGenerateFunc__ = function(page) {
+                __id__ = page;
+                document.title = page;
+                // window.history.pushState('', '', page);
+                var wxss = page.replace('.html', '.wxss')
+                if (
+                    typeof __wxAppCode__ !== 'undefined' &&
+                    __wxAppCode__.hasOwnProperty(wxss)
+                ) {
+                    var setCssToHead = __wxAppCode__[wxss]
+                    typeof setCssToHead === 'function' && setCssToHead()
+                    document.dispatchEvent(new CustomEvent("generateFuncReady", {
+                        detail: {
+                            generateFunc: $gwx(page.replace('.html', '.wxml'))
+                        }
+                    }));
+                } else {
+                    plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+                }
+            };
+        </script>
+        <script src="__uniappes6.js"></script>
+        <script src="uniapp://ready"></script>
+    </head>
+
+    <body>
+        <div></div>
+    </body>
+
+</html>

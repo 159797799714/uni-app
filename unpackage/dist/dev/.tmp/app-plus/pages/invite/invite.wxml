@@ -1,0 +1,2 @@
+<import src="./invite.vue.wxml" />
+    <template is="2ae871ef" data="{{ ...$root['0'], $root }}"/>

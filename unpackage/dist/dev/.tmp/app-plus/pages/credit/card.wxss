@@ -1,0 +1,103 @@
+.classify.data-v-47fae980 {
+  padding: 50rpx 20rpx 40rpx;
+  background-color: #fff;
+}
+.classify .pic.data-v-47fae980 {
+    height: 280rpx;
+}
+.classify .pic image.data-v-47fae980 {
+      width: 100%;
+      height: 100%;
+}
+.classify .btn.data-v-47fae980 {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 40rpx;
+}
+.classify .btn view.data-v-47fae980 {
+      height: 64rpx;
+      padding: 0 20rpx;
+      margin: 0 24rpx 20rpx;
+      font-size: 28rpx;
+      line-height: 64rpx;
+      color: #D2A100;
+      white-space: nowrap;
+      border: 1px solid #f6f6f6;
+      border-color: #D2A100;
+      -webkit-border-radius: 64rpx;
+              border-radius: 64rpx;
+}
+.classify .btn view.on.data-v-47fae980 {
+        color: #fff;
+        background-color: #D2A100;
+}
+.other-box.data-v-47fae980 {
+  padding: 0 20rpx 20rpx;
+  margin-bottom: 20rpx;
+  background-color: #fff;
+}
+.other-box .other-2.data-v-47fae980 {
+    margin-top: 20rpx;
+}
+.other-box .other-left.data-v-47fae980 {
+    background-color: #f6f6f6;
+    -webkit-border-radius: 8rpx;
+            border-radius: 8rpx;
+}
+.other-box .other-right.data-v-47fae980 {
+    width: 172rpx;
+    margin-left: 20rpx;
+    background-color: #FFF0C8;
+    -webkit-border-radius: 8rpx;
+            border-radius: 8rpx;
+    color: #D2A100;
+}
+.other-box .other-right .txt.data-v-47fae980 {
+      color: #D2A100 !important;
+}
+.other-box .other-con.data-v-47fae980 {
+    padding: 24rpx 0 18rpx;
+    font-size: 32rpx;
+    line-height: 44rpx;
+}
+.other-box .other-con .val.data-v-47fae980 {
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+}
+.other-box .other-con .txt.data-v-47fae980 {
+      margin-top: 8rpx;
+      font-size: 24rpx;
+      line-height: 34rpx;
+      color: #999;
+}
+.other-box .other-con .tri.data-v-47fae980 {
+      width: 0;
+      height: 0;
+      margin-left: 6rpx;
+      border-width: 10rpx 10rpx 0;
+      border-style: solid;
+      border-color: #D2A100 transparent transparent;
+}
+.discount.data-v-47fae980 {
+  padding: 40rpx 20rpx;
+  margin-bottom: 20rpx;
+  font-size: 26rpx;
+  line-height: 36rpx;
+  color: #333;
+  background-color: #fff;
+}
+.discount .h3.data-v-47fae980 {
+    margin-bottom: 20rpx;
+    font-size: 28rpx;
+    font-weight: 700;
+    line-height: 40rpx;
+}
+

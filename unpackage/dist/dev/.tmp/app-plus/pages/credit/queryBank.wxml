@@ -1,0 +1,2 @@
+<import src="./queryBank.vue.wxml" />
+    <template is="1ff54a6e" data="{{ ...$root['0'], $root }}"/>

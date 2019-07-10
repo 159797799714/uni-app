@@ -1,0 +1,1 @@
+<template name="0561944c"><label class="_span data-v-6f9285d8 {{['color-' + color]}}">{{ res }}</label></template>

@@ -84,6 +84,7 @@
 			};
 		},
     onLoad: function (option) { 
+      
 //       console.log(option.isLogin); 
 //     	if(isLogin == true){
 //     		this.isAlert = true;
